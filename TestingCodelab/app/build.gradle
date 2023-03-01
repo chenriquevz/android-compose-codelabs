@@ -90,9 +90,9 @@ dependencies {
     implementation(composeBom)
     androidTestImplementation(composeBom)
 
-    implementation "androidx.appcompat:appcompat:1.6.0"
+    implementation "androidx.appcompat:appcompat:1.6.1"
     implementation "androidx.core:core-ktx:1.9.0"
-    implementation "com.google.android.material:material:1.7.0"
+    implementation "com.google.android.material:material:1.8.0"
     implementation "androidx.fragment:fragment-ktx:1.5.5"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
 
@@ -110,7 +110,7 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-tooling"
 
     // Testing dependencies
-    androidTestImplementation "androidx.arch.core:core-testing:2.1.0"
+    androidTestImplementation "androidx.arch.core:core-testing:2.2.0"
     androidTestImplementation "androidx.test.espresso:espresso-contrib:3.5.1"
     androidTestImplementation "androidx.test.espresso:espresso-core:3.5.1"
 
